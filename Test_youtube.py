@@ -11,7 +11,7 @@ def test_youtube_chanel_to_instagram(test_driver):
     try:
         automation = Youtube(test_driver)
         automation.open_youtube()
-        automation.search_youtube('superstar devita')
+        automation.search_youtube('Video name')
         automation.click_on_video()
         automation.open_chanel()
         automation.open_chanel_description()
