@@ -44,7 +44,7 @@ def youtube_chanel_to_instagram():
     try:
         automation = Youtube(driver)
         automation.open_youtube()
-        automation.search_youtube('Edukof')
+        automation.search_youtube('Video Name')
         automation.click_on_video()
         automation.open_chanel()
         automation.open_chanel_description()
