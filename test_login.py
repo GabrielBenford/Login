@@ -29,7 +29,7 @@ def pytest_runtest_makereport(item, call):
          extra.append(pytest_html.extras.image(file_path))
          report.extra=extra
 
-def test_login(test_driver):
+def test_successful_login_and_add_to_cart(test_driver):
         login = Login(test_driver)
         login.open_website()
         login.username_password()
