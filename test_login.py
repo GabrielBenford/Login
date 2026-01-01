@@ -33,7 +33,7 @@ def test_login(test_driver):
         login = Login(test_driver)
         login.open_website()
         login.username_password()
-        login.making_login()
+        login.submit_login()
         login.adding_cart()
 
 
