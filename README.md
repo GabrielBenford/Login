@@ -1,13 +1,13 @@
 Login
 
 This project demonstrates automated web testing using Python.
-It automates a login system and shopping card functionality on "SauceDemo" website. with screenshot capture in case of failure
+It automates a login system and shopping card functionality on "SauceDemo" website.With screenshot capture in case of failure
 and HTML report.The framework captures screenshots whenever a test fails and generates an HTML report for easy test result analysis.
 
 🛠️ Tools used:
   -Python
   -Selenium
-  -pytest
+  -Pytest
   -WebDriverWait
   
 🧪 What happen in the code:
