@@ -5,10 +5,10 @@ It automates a login system and shopping card functionality on "SauceDemo" websi
 and HTML report.The framework captures screenshots whenever a test fails and generates an HTML report for easy test result analysis.
 
 🛠️ Tools used:
-  -Python
-  -Selenium
-  -Pytest
-  -WebDriverWait
+  - Python
+  - Selenium
+  - Pytest
+  - WebDriverWait
   
 🧪 What happen in the code:
 - Successful login with valid credentials
